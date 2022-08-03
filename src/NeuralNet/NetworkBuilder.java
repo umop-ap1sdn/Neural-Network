@@ -1,6 +1,11 @@
 package NeuralNet;
 
-//Don't mess with this class
+/**
+ * NetworkBuilder is a class used by the Network class to initialize the starting configuration.
+ * This is a process done automatically by the Network upon construction, and is not utilized by the client.
+ * @author Owner
+ *
+ */
 
 public class NetworkBuilder {
 

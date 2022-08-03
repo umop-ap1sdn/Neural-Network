@@ -2,10 +2,16 @@ package NeuralNet;
 
 import java.util.ArrayList;
 
-//Specialize class for the input layer of neurons
-//This layer will receive user-specified inputs and therefore will not need 
-//input connections
-//instead their values will be determined by the "setInputs" method
+/**
+ * 
+ * Specialized class for the input layer of neurons<br>
+ * This layer will receive user-specified inputs and therefore will not need 
+ * input connections.
+ * Instead their values will be determined by the "setInputs" method.
+ * 
+ * @author Caleb Devon
+ *
+ */
 
 public class InputLayer extends LayerN{
 	protected InputNeuron[] layer;

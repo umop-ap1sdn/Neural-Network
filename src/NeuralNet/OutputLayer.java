@@ -2,6 +2,13 @@ package NeuralNet;
 
 import java.util.ArrayList;
 
+/**
+ * The OutputLayer is a subset of a Neuron Layer which deals with outputs. <br>
+ * This is the final layer of the Neural Network where values are sent back to the User.
+ * @author Caleb Devon
+ *
+ */
+
 public class OutputLayer extends LayerN{
 	protected OutputNeuron[] layer;
 	

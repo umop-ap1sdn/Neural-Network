@@ -4,11 +4,13 @@ import java.util.ArrayList;
 
 /*******
  * 
+ * 
+ * A Layer represents the organized list of Neurons in each category.<br>
+ * A layer comes with a Neuron array to keep the entire network in an organized pattern.<br>
+ * It also contains the Bias Neuron unless it is an output layer
+ * 
  * @author Caleb Devon
  * 
- * A Layer represents the organized list of Neurons in each category
- * A layer comes with a Neuron array to keep the entire network in an organized pattern
- * It also contains the Bias Neuron unless it is an output layer
  *
  */
 

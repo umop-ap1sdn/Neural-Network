@@ -2,7 +2,12 @@ package NeuralNet;
 
 import java.util.ArrayList;
 
-//Specialized class for the Hidden Neurons, these will have both inputs and outputs
+/**
+ * Specialized class for the Hidden Neurons, these will have both inputs and outputs
+ * 
+ * @author Caleb Devon
+ *
+ */
 
 public class HiddenNeuron extends Neuron{
 	

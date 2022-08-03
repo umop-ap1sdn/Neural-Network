@@ -3,13 +3,14 @@ package NeuralNet;
 import java.util.ArrayList;
 
 /***
- * 
- * @author Caleb Devon
- * 
- * The hidden layer is the 2nd of the 3 layer types
- * the hidden layer is by far the most complex layer containing a bias neuron and 
+ *
+ * The hidden layer is the 2nd of the 3 layer types<br>
+ * The hidden layer is by far the most complex layer containing a bias neuron and 
  * both output and input connections.
  *
+ * @author Caleb Devon
+ * 
+ * 
  */
 
 

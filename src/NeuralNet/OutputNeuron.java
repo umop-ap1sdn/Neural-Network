@@ -2,9 +2,17 @@ package NeuralNet;
 
 import java.util.ArrayList;
 
-//Specialized class for the output neuron, this neuron only has input connections because the
-//outputs will be fed back to the user.
+/**
+ * 
+ * Specialized class for the output neuron, this neuron only has input connections because the
+ * outputs will be fed back to the user.
+ * 
+ * @author Caleb Devon
+ * 
+ */
+
 public class OutputNeuron extends Neuron{
+	
 	double value;
 	ArrayList<Connection> inputs;
 	

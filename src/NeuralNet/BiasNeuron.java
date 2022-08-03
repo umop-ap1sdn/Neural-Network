@@ -1,16 +1,18 @@
 package NeuralNet;
 
-/*
+import java.util.ArrayList;
+
+/**
  * 
  * The Bias neuron is quite simple, its a neuron with a constant value of 1
  * this means it has no connections feeding into it, but it does have outputs
  * The bias can be thought of as the y-intercept in a simple linear equation
  * or the 'b' in y = mx + b.
  * 
+ * @author Caleb Devon
+ * 
  */
 
-
-import java.util.ArrayList;
 
 public class BiasNeuron extends Neuron{
 	

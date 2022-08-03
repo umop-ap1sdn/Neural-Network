@@ -2,19 +2,20 @@ package NeuralNet;
 
 /*****
  * 
- * @author Caleb Devon
- * 
  * Similar to a layer of neurons except that it represents the layers of connections between
- * the Neuron layers
+ * the Neuron layers<br><br>
  * 
  * Instead of a 1 Dimensional Array this contains a 2 Dimensional array representing the fact
- * that Connections rely on an input (Source) and output (Destination) Neuron
+ * that Connections rely on an input (Source) and output (Destination) Neuron<br><br>
  * 
- * Notation is fairly simple
- * To get the Desired connection when performing calculations
+ * Notation is fairly simple.
+ * To get the Desired connection when performing calculations<br>
  * 
  * layer[(Source Neuron index)][(Destination Neuron index)] will get you the Connection between
  * the Chosen Source and Chosen Destination Neuron
+ * 
+ * @author Caleb Devon
+ * 
  *
  */
 public class LayerC {

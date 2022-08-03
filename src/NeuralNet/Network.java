@@ -2,21 +2,20 @@ package NeuralNet;
 
 /******
  * 
- * @author Caleb Devon
- * A neural network is among the most popular learning models which incorporates a forward pass 
+ * A Neural Network is among the most popular learning models which incorporates a forward pass 
  * and backpropagation. The forward pass is fairly simple; for each neuron in the layer forward
  * from the active layer, its value is calculated by adding the multiplicative value of Neurons 
  * from the active layer and the Connection which attaches the 2 neurons. This process is repeated
  * until each neuron in the active layer has been inputed to the neuron. At the end of this 
  * process the newly valued neuron is passed through a sigmoid function to compress the value to
  * one between 0 and 1.
- * 
- * 
+ *
+ * @author Caleb Devon
  * 
  */
 public class Network {
 	
-	public final double LEARNING_RATE = 0.2;
+	public final double LEARNING_RATE = 0.02;
 	
 	LayerN[] networkN;
 	LayerC[] networkC;
@@ -28,7 +27,7 @@ public class Network {
 	int[] size;
 	
 	
-	public Network(int[] size) {
+	public Network(int... size) {
 		this.size = size;
 		constructor = new NetworkBuilder(size);
 		networkN = constructor.getNetworkN();
